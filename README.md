@@ -1,0 +1,3 @@
+# React Native: TypeError: Cannot read properties of undefined (reading '...')
+
+This repository demonstrates a common React Native error: `TypeError: Cannot read properties of undefined (reading '...')`.  This error arises when you attempt to access a property of an object that is currently undefined or null because the state variable hasn't been initialized yet. The example shows how to effectively handle asynchronous operations and avoid this error.  The `bug.js` file illustrates the problem, and `bugSolution.js` provides the correct implementation. The solution includes error handling and conditional rendering to prevent the error.
